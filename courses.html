@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EduFord</title>
+</head>
+<body>
+
+    <!-- /* ====================================================================================================================
+                                               Header section
+==================================================================================================================== */ -->
+    <section class="about_header">
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png" ></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="#">course</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" ></i>
+        </nav>
+        <h1> Our Courses</h1>
+    </section>
+
+    <!-- ======================================================================================================================
+                                                our courses section
+    ===================================================================================================================== -->
+    <section class="course">
+        <h1 class="course_h1">programmes we offer</h1>
+        <p class="course_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Debitis, enim animi! Dolores mollitia omnis quam, 
+            alias ex, olorem aliquam nisi nemo sint dicta unde</p>
+    
+            <div class="row">
+                <div class="course-col">
+                    <h3 class="course_h3">predegree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam, 
+                        alias ex, olorem aliquam nisi nemo sint dicta unde. Praesentium delectus, 
+                        iste autem laborum a voluptate rerum dolor ratione, 
+                        perspiciatis nisi hic? In dicta nihil debitis veritatis,
+                        molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                </div>
+    
+                <div class="course-col">
+                    <h3 class="course_h3">undergraduate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam, 
+                        alias ex, olorem aliquam nisi nemo sint dicta unde. Praesentium delectus, 
+                        iste autem laborum a voluptate rerum dolor ratione, 
+                        perspiciatis nisi hic? In dicta nihil debitis veritatis,
+                        molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                </div>
+    
+                <div class="course-col">
+                    <h3 class="course_h3">postgraduate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam, 
+                        alias ex, olorem aliquam nisi nemo sint dicta unde. Praesentium delectus, 
+                        iste autem laborum a voluptate rerum dolor ratione, 
+                        perspiciatis nisi hic? In dicta nihil debitis veritatis, 
+                    </p>
+                </div>
+    
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <!-- /* ====================================================================================================================
+                                             Footer
+==================================================================================================================== */ -->
+<section class="footer">
+    <h4 class=".footer_h4">Coded by  Samuelldmj | 2023. <i class="fa fab fas fa-copyright"></i>  All right reserved.</h4>
+    <div class="icons">
+       <i class="fa fab fa-twitter"></i>
+       <i class="fa fab fa-linkedin"></i>
+       <i class="fa fab fa-github"></i>
+    </div>
+</section>
+
+
+
+
+
+
+   <!-- Javascript toggle menu for media query -->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+
+   </script>
+</body>
+</html>
