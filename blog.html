@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css external -->
     <link rel="stylesheet" href="style.css">
+    <!-- swiper js -->
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- font and icon cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>EduFord</title>
@@ -35,7 +40,64 @@
 <!-- /* ====================================================================================================================
                                              Blog page content
 ==================================================================================================================== */ -->
+<section class="blog_container">
+    <h2 class="blog_head">Hot <span style="color: var(--blue);">Topics</span></h2>
+    <div class="blog_wrapper">
+        <div class="blog_box mySwiper">
+            <div class="blog_content swiper-wrapper">
+                <div class="blog_slide swiper-slide">
+                    <img src="eduford_img/man1.jpg" alt="">
+                    <h2>Zan Dan</h2>
+                    <h3>Data science and Blockchain</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam,
+                     autem laborum a voluptate rerum dolor ratione,
+                     molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                    <a href="" class="clickbtn redbtn">Read more</a>
+                </div>
+                <div class="blog_slide swiper-slide">
+                    <img src="eduford_img/female1.jpg" alt="">
+                    <h2>Reg qulin</h2>
+                    <h3>Roadmap to becoming a Backend engineer</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam,
+                     autem laborum a voluptate rerum dolor ratione,
+                     molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                    <a href="" class="clickbtn redbtn">Read more</a>
+                </div>
+                <div class="blog_slide swiper-slide">
+                    <img src="eduford_img/female2.jpg" alt="">
+                    <h2>Zainab Lukman</h2>
+                    <h3>Machine learning and AI</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam,
+                     autem laborum a voluptate rerum dolor ratione,
+                     molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                    <a href="" class="clickbtn redbtn">Read more</a>
+                </div>
+                <div class="blog_slide swiper-slide">
+                    <img src="eduford_img/man2.jpg" alt="">
+                    <h2>Greg Bissaka</h2>
+                    <h3>AI, Robotics and Health care</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, enim animi! Dolores mollitia omnis quam,
+                     autem laborum a voluptate rerum dolor ratione,
+                     molestias deserunt alias, sed non nostrum dolor assumenda!
+                    </p>
+                    <a href="" class="clickbtn redbtn">Read more</a>
+                </div>
 
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>   
+        </div>  
+    </div>
+</section>
 
 
 
@@ -60,6 +122,9 @@
 
 
 
+<!-- swiper javascript -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
 
    <!-- Javascript toggle menu for media query -->
    <script>

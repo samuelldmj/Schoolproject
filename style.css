@@ -1,7 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
+
+:root {
+    --blue: rgb(173, 10, 10);
+    --white: #ffffff;
+    --shadow-color: rgba(0,0,0,.2);
+    --main-color: rgb(99, 3, 3);
+  }
 
 .header {
     min-height: 100vh;
@@ -533,6 +543,106 @@ nav .fa{
 .redbtn:hover {
     color: aliceblue;
 }
+
+/* ====================================================================================================================
+                                             Blog page content
+==================================================================================================================== */
+.blog_container {
+  width: 100%;
+  padding: .5rem 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog_head{
+    margin-top: 25px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.blog_wrapper{
+    width: 70%;
+    padding: 20px;
+    /* margin: auto; */
+    position: relative;
+    max-width: 90rem;
+
+}
+
+.blog_content .blog_slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg-color);
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    padding: 2rem 4rem;
+    border-top: .7rem solid var(--main-color);
+    border-bottom: .7rem solid var(--main-color);   
+}
+
+.blog_slide img{
+    width: 7rem ;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .5rem solid var(--white);
+    outline: .5rem solid var(--blue);
+}
+
+.blog_slide h2{
+        font-size: 1.3rem;
+        margin: 1rem 0;
+}
+
+.blog_slide h3{
+    font-size: 2rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.blog_slide p {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.blog_wrapper .blog_box {
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 2rem; 
+}
+
+.blog_box .swiper-button-next, 
+.blog_box .swiper-button-prev{
+    color: var(--main-color);
+}
+
+.blog_box .swiper-button-next{
+    right:  0;
+}
+
+.blog_box .swiper-button-prev{
+    left: 0;
+}
+
+.blog_box .swiper-pagination-bullet{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.blog_box .swiper-pagination-bullet{
+    background: var(--main-color);
+}
+
+
+
+
+/* ====================================================================================================================
+                                               blog media query section
+==================================================================================================================== */
 
 
 
