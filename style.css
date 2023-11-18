@@ -564,7 +564,7 @@ nav .fa{
 }
 
 .blog_wrapper{
-    width: 70%;
+    width: 60%;
     padding: 20px;
     /* margin: auto; */
     position: relative;
@@ -599,13 +599,13 @@ nav .fa{
 }
 
 .blog_slide h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 5px 0;
     text-align: center;
 }
 
 .blog_slide p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: auto;
 }
@@ -640,11 +640,70 @@ nav .fa{
 
 
 
+
+
 /* ====================================================================================================================
                                                blog media query section
 ==================================================================================================================== */
+@media(max-width: 700px) {
 
+    .textbox h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
 
+    .navlinks {
+        position: absolute;
+        background: #f05959;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .navlinks ul {
+        padding: 30px;
+    }
+
+    .navlinks ul li {
+        display: block;
+    }
+
+    nav .fa{
+        cursor: pointer;
+        color: aliceblue;
+        margin: 10px;
+        font-size: 22px;
+        display: block; 
+    }
+   
+    .blog_wrapper{
+        width: 100%;
+        padding: 20px;
+        /* margin: auto; */
+        position: relative;
+        max-width: 90rem;
+    
+    }
+    
+    /* former media query for wrapper */
+    /* .blog_container .blog_wrapper{
+        padding: 5rem 0;
+    } */
+
+    .blog_content .blog_slide {
+        padding: 3rem 2rem;
+    }
+
+    .blog_box .swiper-button-next,
+     .blog_box .swiper-button-prev { 
+        display: none;
+
+    }
+}
 
 
 
