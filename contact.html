@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>EduFord</title>
+</head>
+
+<body>
+
+    <!-- /* ====================================================================================================================
+                                               Header section
+==================================================================================================================== */ -->
+    <section class="about_header">
+        <nav>
+            <a href="index.html"> <img src="eduford_img/logo.png"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Contact Us</h1>
+    </section>
+
+    <!-- ======================================================================================================================
+                                                our contact section
+    ===================================================================================================================== -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1nxxfsdOOs2x2HPEsNV-YlJDLFzM&hl=en&ehbc=2E312F" width="640"
+            height="480"></iframe>
+
+    </section>
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact_col">
+                <div>
+                    <i class="fa fas fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Zebra, Corner, NIG</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa  fas fa-phone"></i>
+                    <span>
+                        <h5>+1 012546789</h5>
+                        <p>Monday to Saturday, 10am to 6pm</p>
+                    </span> 
+                </div>
+                <div>
+                    <i class="fa far fa-envelope"></i>
+                    <span>
+                        <h5>samuelldmj5@gmail.com</h5>
+                        <p>Email us for more enquiry</p>
+                    </span> 
+                </div> 
+            </div>
+            
+            <div class="contact_col">
+                <form action="form.php" method="post">
+                   <input type="text" name="name"  placeholder="Enter your name" required >
+                   <input type="email" name="email"   placeholder="Enter email address" required >
+                   <input type="text" name="subject"   placeholder="Enter your subject" required >
+                   <textarea rows="8" name="message"    placeholder="Message" required></textarea>
+                   <button type="submit" class="clickbtn redbtn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- /* ====================================================================================================================
+                                             Footer
+==================================================================================================================== */ -->
+    <section class="footer">
+        <h4 class=".footer_h4">Coded by Samuelldmj | 2023.<i class="fa fab fas fa-copyright"></i>All right reserved.</h4>
+        <div class="icons">
+            <i class="fa fab fa-twitter"></i>
+            <i class="fa fab fa-linkedin"></i>
+            <i class="fa fab fa-github"></i>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Javascript toggle menu for media query -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
