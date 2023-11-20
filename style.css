@@ -683,7 +683,7 @@ nav .fa{
     }
 
     .navlinks {
-        position: absolute;
+        position: fixed;
         background: #f05959;
         height: 50vh;
         width: 200px;
@@ -746,7 +746,62 @@ nav .fa{
  
 }
 
+/* ====================================================================================================================
+                                               contact us section
+==================================================================================================================== */
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
 
+.location iframe{
+    width: 100%;
+}
 
+.contact_us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact_col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact_col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact_col div .fa {
+    font-size: 28px;
+    color: red;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact_col div p {
+    padding: 0;
+}
+
+.contact_col div h5{
+    font-size: 20px;
+    margin-bottom:5px;
+    color: #555;
+    font-weight: 400; 
+}
+
+.contact_col input, .contact_col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+    box-sizing: border-box;
+     
+}
 
 
