@@ -637,7 +637,37 @@ nav .fa{
     background: var(--main-color);
 }
 
+.comment_box{
+    width: 100%;
+    padding: 30px 50px;
+    display: block;
+    margin-top: 65px;
+  }
 
+.comment_box h3 {
+    text-align: center;
+}
+
+.comment_wrapper{
+    width: 500px;
+    height: 400px;  
+    padding: 20px;
+    box-shadow: rgb(229, 252, 227);
+    margin: 20px 20px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.comment_form input, .comment_form textarea{
+    padding: 10px;
+    margin:15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    resize: none;
+    width: 100%;
+}
 
 
 
@@ -703,6 +733,17 @@ nav .fa{
         display: none;
 
     }
+
+    .comment_wrapper{
+        width: 100%;
+        height: 400px;  
+        padding: 20px;
+        box-shadow: rgb(229, 252, 227);
+        margin: 20px 20px;
+        background: white;
+        border: 1px solid #ccc;
+    }
+ 
 }
 
 
